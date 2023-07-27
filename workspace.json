@@ -1,0 +1,1593 @@
+{
+  "id" : 1,
+  "name" : "Big Bank plc",
+  "description" : "This is an example workspace to illustrate the key features of Structurizr, via the DSL, based around a fictional online banking system.",
+  "lastModifiedDate" : "2023-07-27T04:47:41Z",
+  "properties" : {
+    "structurizr.dsl" : "LyoKICogVGhpcyBpcyBhIGNvbWJpbmVkIHZlcnNpb24gb2YgdGhlIGZvbGxvd2luZyB3b3Jrc3BhY2VzLCB3aXRoIGF1dG9tYXRpYyBsYXlvdXQgZW5hYmxlZDoKICoKICogLSAiQmlnIEJhbmsgcGxjIC0gU3lzdGVtIExhbmRzY2FwZSIgKGh0dHBzOi8vc3RydWN0dXJpenIuY29tL3NoYXJlLzI4MjAxLykKICogLSAiQmlnIEJhbmsgcGxjIC0gSW50ZXJuZXQgQmFua2luZyBTeXN0ZW0iIChodHRwczovL3N0cnVjdHVyaXpyLmNvbS9zaGFyZS8zNjE0MS8pCiovCndvcmtzcGFjZSAiQmlnIEJhbmsgcGxjIiAiVGhpcyBpcyBhbiBleGFtcGxlIHdvcmtzcGFjZSB0byBpbGx1c3RyYXRlIHRoZSBrZXkgZmVhdHVyZXMgb2YgU3RydWN0dXJpenIsIHZpYSB0aGUgRFNMLCBiYXNlZCBhcm91bmQgYSBmaWN0aW9uYWwgb25saW5lIGJhbmtpbmcgc3lzdGVtLiIgewoKICAgIG1vZGVsIHsKICAgICAgICBjdXN0b21lciA9IHBlcnNvbiAiUGVyc29uYWwgQmFua2luZyBDdXN0b21lciIgIkEgY3VzdG9tZXIgb2YgdGhlIGJhbmssIHdpdGggcGVyc29uYWwgYmFuayBhY2NvdW50cy4iICJDdXN0b21lciIKCiAgICAgICAgZ3JvdXAgIkJpZyBCYW5rIHBsYyIgewogICAgICAgICAgICBzdXBwb3J0U3RhZmYgPSBwZXJzb24gIkN1c3RvbWVyIFNlcnZpY2UgU3RhZmYiICJDdXN0b21lciBzZXJ2aWNlIHN0YWZmIHdpdGhpbiB0aGUgYmFuay4iICJCYW5rIFN0YWZmIgogICAgICAgICAgICBiYWNrb2ZmaWNlID0gcGVyc29uICJCYWNrIE9mZmljZSBTdGFmZiIgIkFkbWluaXN0cmF0aW9uIGFuZCBzdXBwb3J0IHN0YWZmIHdpdGhpbiB0aGUgYmFuay4iICJCYW5rIFN0YWZmIgoKICAgICAgICAgICAgbWFpbmZyYW1lID0gc29mdHdhcmVzeXN0ZW0gIk1haW5mcmFtZSBCYW5raW5nIFN5c3RlbSIgIlN0b3JlcyBhbGwgb2YgdGhlIGNvcmUgYmFua2luZyBpbmZvcm1hdGlvbiBhYm91dCBjdXN0b21lcnMsIGFjY291bnRzLCB0cmFuc2FjdGlvbnMsIGV0Yy4iICJFeGlzdGluZyBTeXN0ZW0iCiAgICAgICAgICAgIGVtYWlsID0gc29mdHdhcmVzeXN0ZW0gIkUtbWFpbCBTeXN0ZW0iICJUaGUgaW50ZXJuYWwgTWljcm9zb2Z0IEV4Y2hhbmdlIGUtbWFpbCBzeXN0ZW0uIiAiRXhpc3RpbmcgU3lzdGVtIgogICAgICAgICAgICBhdG0gPSBzb2Z0d2FyZXN5c3RlbSAiQVRNIiAiQWxsb3dzIGN1c3RvbWVycyB0byB3aXRoZHJhdyBjYXNoLiIgIkV4aXN0aW5nIFN5c3RlbSIKCiAgICAgICAgICAgIGludGVybmV0QmFua2luZ1N5c3RlbSA9IHNvZnR3YXJlc3lzdGVtICJJbnRlcm5ldCBCYW5raW5nIFN5c3RlbSIgIkFsbG93cyBjdXN0b21lcnMgdG8gdmlldyBpbmZvcm1hdGlvbiBhYm91dCB0aGVpciBiYW5rIGFjY291bnRzLCBhbmQgbWFrZSBwYXltZW50cy4iIHsKICAgICAgICAgICAgICAgIHNpbmdsZVBhZ2VBcHBsaWNhdGlvbiA9IGNvbnRhaW5lciAiU2luZ2xlLVBhZ2UgQXBwbGljYXRpb24iICJQcm92aWRlcyBhbGwgb2YgdGhlIEludGVybmV0IGJhbmtpbmcgZnVuY3Rpb25hbGl0eSB0byBjdXN0b21lcnMgdmlhIHRoZWlyIHdlYiBicm93c2VyLiIgIkphdmFTY3JpcHQgYW5kIEFuZ3VsYXIiICJXZWIgQnJvd3NlciIKICAgICAgICAgICAgICAgIG1vYmlsZUFwcCA9IGNvbnRhaW5lciAiTW9iaWxlIEFwcCIgIlByb3ZpZGVzIGEgbGltaXRlZCBzdWJzZXQgb2YgdGhlIEludGVybmV0IGJhbmtpbmcgZnVuY3Rpb25hbGl0eSB0byBjdXN0b21lcnMgdmlhIHRoZWlyIG1vYmlsZSBkZXZpY2UuIiAiWGFtYXJpbiIgIk1vYmlsZSBBcHAiCiAgICAgICAgICAgICAgICB3ZWJBcHBsaWNhdGlvbiA9IGNvbnRhaW5lciAiV2ViIEFwcGxpY2F0aW9uIiAiRGVsaXZlcnMgdGhlIHN0YXRpYyBjb250ZW50IGFuZCB0aGUgSW50ZXJuZXQgYmFua2luZyBzaW5nbGUgcGFnZSBhcHBsaWNhdGlvbi4iICJKYXZhIGFuZCBTcHJpbmcgTVZDIgogICAgICAgICAgICAgICAgYXBpQXBwbGljYXRpb24gPSBjb250YWluZXIgIkFQSSBBcHBsaWNhdGlvbiIgIlByb3ZpZGVzIEludGVybmV0IGJhbmtpbmcgZnVuY3Rpb25hbGl0eSB2aWEgYSBKU09OL0hUVFBTIEFQSS4iICJKYXZhIGFuZCBTcHJpbmcgTVZDIiB7CiAgICAgICAgICAgICAgICAgICAgc2lnbmluQ29udHJvbGxlciA9IGNvbXBvbmVudCAiU2lnbiBJbiBDb250cm9sbGVyIiAiQWxsb3dzIHVzZXJzIHRvIHNpZ24gaW4gdG8gdGhlIEludGVybmV0IEJhbmtpbmcgU3lzdGVtLiIgIlNwcmluZyBNVkMgUmVzdCBDb250cm9sbGVyIgogICAgICAgICAgICAgICAgICAgIGFjY291bnRzU3VtbWFyeUNvbnRyb2xsZXIgPSBjb21wb25lbnQgIkFjY291bnRzIFN1bW1hcnkgQ29udHJvbGxlciIgIlByb3ZpZGVzIGN1c3RvbWVycyB3aXRoIGEgc3VtbWFyeSBvZiB0aGVpciBiYW5rIGFjY291bnRzLiIgIlNwcmluZyBNVkMgUmVzdCBDb250cm9sbGVyIgogICAgICAgICAgICAgICAgICAgIHJlc2V0UGFzc3dvcmRDb250cm9sbGVyID0gY29tcG9uZW50ICJSZXNldCBQYXNzd29yZCBDb250cm9sbGVyIiAiQWxsb3dzIHVzZXJzIHRvIHJlc2V0IHRoZWlyIHBhc3N3b3JkcyB3aXRoIGEgc2luZ2xlIHVzZSBVUkwuIiAiU3ByaW5nIE1WQyBSZXN0IENvbnRyb2xsZXIiCiAgICAgICAgICAgICAgICAgICAgc2VjdXJpdHlDb21wb25lbnQgPSBjb21wb25lbnQgIlNlY3VyaXR5IENvbXBvbmVudCIgIlByb3ZpZGVzIGZ1bmN0aW9uYWxpdHkgcmVsYXRlZCB0byBzaWduaW5nIGluLCBjaGFuZ2luZyBwYXNzd29yZHMsIGV0Yy4iICJTcHJpbmcgQmVhbiIKICAgICAgICAgICAgICAgICAgICBtYWluZnJhbWVCYW5raW5nU3lzdGVtRmFjYWRlID0gY29tcG9uZW50ICJNYWluZnJhbWUgQmFua2luZyBTeXN0ZW0gRmFjYWRlIiAiQSBmYWNhZGUgb250byB0aGUgbWFpbmZyYW1lIGJhbmtpbmcgc3lzdGVtLiIgIlNwcmluZyBCZWFuIgogICAgICAgICAgICAgICAgICAgIGVtYWlsQ29tcG9uZW50ID0gY29tcG9uZW50ICJFLW1haWwgQ29tcG9uZW50IiAiU2VuZHMgZS1tYWlscyB0byB1c2Vycy4iICJTcHJpbmcgQmVhbiIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGRhdGFiYXNlID0gY29udGFpbmVyICJEYXRhYmFzZSIgIlN0b3JlcyB1c2VyIHJlZ2lzdHJhdGlvbiBpbmZvcm1hdGlvbiwgaGFzaGVkIGF1dGhlbnRpY2F0aW9uIGNyZWRlbnRpYWxzLCBhY2Nlc3MgbG9ncywgZXRjLiIgIk9yYWNsZSBEYXRhYmFzZSBTY2hlbWEiICJEYXRhYmFzZSIKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgIyByZWxhdGlvbnNoaXBzIGJldHdlZW4gcGVvcGxlIGFuZCBzb2Z0d2FyZSBzeXN0ZW1zCiAgICAgICAgY3VzdG9tZXIgLT4gaW50ZXJuZXRCYW5raW5nU3lzdGVtICJWaWV3cyBhY2NvdW50IGJhbGFuY2VzLCBhbmQgbWFrZXMgcGF5bWVudHMgdXNpbmciCiAgICAgICAgaW50ZXJuZXRCYW5raW5nU3lzdGVtIC0+IG1haW5mcmFtZSAiR2V0cyBhY2NvdW50IGluZm9ybWF0aW9uIGZyb20sIGFuZCBtYWtlcyBwYXltZW50cyB1c2luZyIKICAgICAgICBpbnRlcm5ldEJhbmtpbmdTeXN0ZW0gLT4gZW1haWwgIlNlbmRzIGUtbWFpbCB1c2luZyIKICAgICAgICBlbWFpbCAtPiBjdXN0b21lciAiU2VuZHMgZS1tYWlscyB0byIKICAgICAgICBjdXN0b21lciAtPiBzdXBwb3J0U3RhZmYgIkFza3MgcXVlc3Rpb25zIHRvIiAiVGVsZXBob25lIgogICAgICAgIHN1cHBvcnRTdGFmZiAtPiBtYWluZnJhbWUgIlVzZXMiCiAgICAgICAgY3VzdG9tZXIgLT4gYXRtICJXaXRoZHJhd3MgY2FzaCB1c2luZyIKICAgICAgICBhdG0gLT4gbWFpbmZyYW1lICJVc2VzIgogICAgICAgIGJhY2tvZmZpY2UgLT4gbWFpbmZyYW1lICJVc2VzIgoKICAgICAgICAjIHJlbGF0aW9uc2hpcHMgdG8vZnJvbSBjb250YWluZXJzCiAgICAgICAgY3VzdG9tZXIgLT4gd2ViQXBwbGljYXRpb24gIlZpc2l0cyBiaWdiYW5rLmNvbS9pYiB1c2luZyIgIkhUVFBTIgogICAgICAgIGN1c3RvbWVyIC0+IHNpbmdsZVBhZ2VBcHBsaWNhdGlvbiAiVmlld3MgYWNjb3VudCBiYWxhbmNlcywgYW5kIG1ha2VzIHBheW1lbnRzIHVzaW5nIgogICAgICAgIGN1c3RvbWVyIC0+IG1vYmlsZUFwcCAiVmlld3MgYWNjb3VudCBiYWxhbmNlcywgYW5kIG1ha2VzIHBheW1lbnRzIHVzaW5nIgogICAgICAgIHdlYkFwcGxpY2F0aW9uIC0+IHNpbmdsZVBhZ2VBcHBsaWNhdGlvbiAiRGVsaXZlcnMgdG8gdGhlIGN1c3RvbWVyJ3Mgd2ViIGJyb3dzZXIiCgogICAgICAgICMgcmVsYXRpb25zaGlwcyB0by9mcm9tIGNvbXBvbmVudHMKICAgICAgICBzaW5nbGVQYWdlQXBwbGljYXRpb24gLT4gc2lnbmluQ29udHJvbGxlciAiTWFrZXMgQVBJIGNhbGxzIHRvIiAiSlNPTi9IVFRQUyIKICAgICAgICBzaW5nbGVQYWdlQXBwbGljYXRpb24gLT4gYWNjb3VudHNTdW1tYXJ5Q29udHJvbGxlciAiTWFrZXMgQVBJIGNhbGxzIHRvIiAiSlNPTi9IVFRQUyIKICAgICAgICBzaW5nbGVQYWdlQXBwbGljYXRpb24gLT4gcmVzZXRQYXNzd29yZENvbnRyb2xsZXIgIk1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCiAgICAgICAgbW9iaWxlQXBwIC0+IHNpZ25pbkNvbnRyb2xsZXIgIk1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCiAgICAgICAgbW9iaWxlQXBwIC0+IGFjY291bnRzU3VtbWFyeUNvbnRyb2xsZXIgIk1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCiAgICAgICAgbW9iaWxlQXBwIC0+IHJlc2V0UGFzc3dvcmRDb250cm9sbGVyICJNYWtlcyBBUEkgY2FsbHMgdG8iICJKU09OL0hUVFBTIgogICAgICAgIHNpZ25pbkNvbnRyb2xsZXIgLT4gc2VjdXJpdHlDb21wb25lbnQgIlVzZXMiCiAgICAgICAgYWNjb3VudHNTdW1tYXJ5Q29udHJvbGxlciAtPiBtYWluZnJhbWVCYW5raW5nU3lzdGVtRmFjYWRlICJVc2VzIgogICAgICAgIHJlc2V0UGFzc3dvcmRDb250cm9sbGVyIC0+IHNlY3VyaXR5Q29tcG9uZW50ICJVc2VzIgogICAgICAgIHJlc2V0UGFzc3dvcmRDb250cm9sbGVyIC0+IGVtYWlsQ29tcG9uZW50ICJVc2VzIgogICAgICAgIHNlY3VyaXR5Q29tcG9uZW50IC0+IGRhdGFiYXNlICJSZWFkcyBmcm9tIGFuZCB3cml0ZXMgdG8iICJTUUwvVENQIgogICAgICAgIG1haW5mcmFtZUJhbmtpbmdTeXN0ZW1GYWNhZGUgLT4gbWFpbmZyYW1lICJNYWtlcyBBUEkgY2FsbHMgdG8iICJYTUwvSFRUUFMiCiAgICAgICAgZW1haWxDb21wb25lbnQgLT4gZW1haWwgIlNlbmRzIGUtbWFpbCB1c2luZyIKCiAgICAgICAgZGVwbG95bWVudEVudmlyb25tZW50ICJEZXZlbG9wbWVudCIgewogICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiRGV2ZWxvcGVyIExhcHRvcCIgIiIgIk1pY3Jvc29mdCBXaW5kb3dzIDEwIG9yIEFwcGxlIG1hY09TIiB7CiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiV2ViIEJyb3dzZXIiICIiICJDaHJvbWUsIEZpcmVmb3gsIFNhZmFyaSwgb3IgRWRnZSIgewogICAgICAgICAgICAgICAgICAgIGRldmVsb3BlclNpbmdsZVBhZ2VBcHBsaWNhdGlvbkluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2Ugc2luZ2xlUGFnZUFwcGxpY2F0aW9uCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiRG9ja2VyIENvbnRhaW5lciAtIFdlYiBTZXJ2ZXIiICIiICJEb2NrZXIiIHsKICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQXBhY2hlIFRvbWNhdCIgIiIgIkFwYWNoZSBUb21jYXQgOC54IiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGRldmVsb3BlcldlYkFwcGxpY2F0aW9uSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSB3ZWJBcHBsaWNhdGlvbgogICAgICAgICAgICAgICAgICAgICAgICBkZXZlbG9wZXJBcGlBcHBsaWNhdGlvbkluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2UgYXBpQXBwbGljYXRpb24KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiRG9ja2VyIENvbnRhaW5lciAtIERhdGFiYXNlIFNlcnZlciIgIiIgIkRvY2tlciIgewogICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJEYXRhYmFzZSBTZXJ2ZXIiICIiICJPcmFjbGUgMTJjIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGRldmVsb3BlckRhdGFiYXNlSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBkYXRhYmFzZQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQmlnIEJhbmsgcGxjIiAiIiAiQmlnIEJhbmsgcGxjIGRhdGEgY2VudGVyIiAiIiB7CiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiYmlnYmFuay1kZXYwMDEiICIiICIiICIiIHsKICAgICAgICAgICAgICAgICAgICBzb2Z0d2FyZVN5c3RlbUluc3RhbmNlIG1haW5mcmFtZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgIH0KCiAgICAgICAgZGVwbG95bWVudEVudmlyb25tZW50ICJMaXZlIiB7CiAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJDdXN0b21lcidzIG1vYmlsZSBkZXZpY2UiICIiICJBcHBsZSBpT1Mgb3IgQW5kcm9pZCIgewogICAgICAgICAgICAgICAgbGl2ZU1vYmlsZUFwcEluc3RhbmNlID0gY29udGFpbmVySW5zdGFuY2UgbW9iaWxlQXBwCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkN1c3RvbWVyJ3MgY29tcHV0ZXIiICIiICJNaWNyb3NvZnQgV2luZG93cyBvciBBcHBsZSBtYWNPUyIgewogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIldlYiBCcm93c2VyIiAiIiAiQ2hyb21lLCBGaXJlZm94LCBTYWZhcmksIG9yIEVkZ2UiIHsKICAgICAgICAgICAgICAgICAgICBsaXZlU2luZ2xlUGFnZUFwcGxpY2F0aW9uSW5zdGFuY2UgPSBjb250YWluZXJJbnN0YW5jZSBzaW5nbGVQYWdlQXBwbGljYXRpb24KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkJpZyBCYW5rIHBsYyIgIiIgIkJpZyBCYW5rIHBsYyBkYXRhIGNlbnRlciIgewogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgImJpZ2Jhbmstd2ViKioqIiAiIiAiVWJ1bnR1IDE2LjA0IExUUyIgIiIgNCB7CiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkFwYWNoZSBUb21jYXQiICIiICJBcGFjaGUgVG9tY2F0IDgueCIgewogICAgICAgICAgICAgICAgICAgICAgICBsaXZlV2ViQXBwbGljYXRpb25JbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIHdlYkFwcGxpY2F0aW9uCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgImJpZ2JhbmstYXBpKioqIiAiIiAiVWJ1bnR1IDE2LjA0IExUUyIgIiIgOCB7CiAgICAgICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkFwYWNoZSBUb21jYXQiICIiICJBcGFjaGUgVG9tY2F0IDgueCIgewogICAgICAgICAgICAgICAgICAgICAgICBsaXZlQXBpQXBwbGljYXRpb25JbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGFwaUFwcGxpY2F0aW9uCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJiaWdiYW5rLWRiMDEiICIiICJVYnVudHUgMTYuMDQgTFRTIiB7CiAgICAgICAgICAgICAgICAgICAgcHJpbWFyeURhdGFiYXNlU2VydmVyID0gZGVwbG95bWVudE5vZGUgIk9yYWNsZSAtIFByaW1hcnkiICIiICJPcmFjbGUgMTJjIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGxpdmVQcmltYXJ5RGF0YWJhc2VJbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGRhdGFiYXNlCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgImJpZ2JhbmstZGIwMiIgIiIgIlVidW50dSAxNi4wNCBMVFMiICJGYWlsb3ZlciIgewogICAgICAgICAgICAgICAgICAgIHNlY29uZGFyeURhdGFiYXNlU2VydmVyID0gZGVwbG95bWVudE5vZGUgIk9yYWNsZSAtIFNlY29uZGFyeSIgIiIgIk9yYWNsZSAxMmMiICJGYWlsb3ZlciIgewogICAgICAgICAgICAgICAgICAgICAgICBsaXZlU2Vjb25kYXJ5RGF0YWJhc2VJbnN0YW5jZSA9IGNvbnRhaW5lckluc3RhbmNlIGRhdGFiYXNlICJGYWlsb3ZlciIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiYmlnYmFuay1wcm9kMDAxIiAiIiAiIiAiIiB7CiAgICAgICAgICAgICAgICAgICAgc29mdHdhcmVTeXN0ZW1JbnN0YW5jZSBtYWluZnJhbWUKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgcHJpbWFyeURhdGFiYXNlU2VydmVyIC0+IHNlY29uZGFyeURhdGFiYXNlU2VydmVyICJSZXBsaWNhdGVzIGRhdGEgdG8iCiAgICAgICAgfQogICAgfQoKICAgIHZpZXdzIHsKICAgICAgICBzeXN0ZW1sYW5kc2NhcGUgIlN5c3RlbUxhbmRzY2FwZSIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgCiAgICAgICAgfQoKICAgICAgICBzeXN0ZW1jb250ZXh0IGludGVybmV0QmFua2luZ1N5c3RlbSAiU3lzdGVtQ29udGV4dCIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYW5pbWF0aW9uIHsKICAgICAgICAgICAgICAgIGludGVybmV0QmFua2luZ1N5c3RlbQogICAgICAgICAgICAgICAgY3VzdG9tZXIKICAgICAgICAgICAgICAgIG1haW5mcmFtZQogICAgICAgICAgICAgICAgZW1haWwKICAgICAgICAgICAgfQogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgICAgIGRlc2NyaXB0aW9uICJUaGUgc3lzdGVtIGNvbnRleHQgZGlhZ3JhbSBmb3IgdGhlIEludGVybmV0IEJhbmtpbmcgU3lzdGVtLiIKICAgICAgICAgICAgcHJvcGVydGllcyB7CiAgICAgICAgICAgICAgICBzdHJ1Y3R1cml6ci5ncm91cHMgZmFsc2UKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgY29udGFpbmVyIGludGVybmV0QmFua2luZ1N5c3RlbSAiQ29udGFpbmVycyIgewogICAgICAgICAgICBpbmNsdWRlICoKICAgICAgICAgICAgYW5pbWF0aW9uIHsKICAgICAgICAgICAgICAgIGN1c3RvbWVyIG1haW5mcmFtZSBlbWFpbAogICAgICAgICAgICAgICAgd2ViQXBwbGljYXRpb24KICAgICAgICAgICAgICAgIHNpbmdsZVBhZ2VBcHBsaWNhdGlvbgogICAgICAgICAgICAgICAgbW9iaWxlQXBwCiAgICAgICAgICAgICAgICBhcGlBcHBsaWNhdGlvbgogICAgICAgICAgICAgICAgZGF0YWJhc2UKICAgICAgICAgICAgfQogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgICAgIGRlc2NyaXB0aW9uICJUaGUgY29udGFpbmVyIGRpYWdyYW0gZm9yIHRoZSBJbnRlcm5ldCBCYW5raW5nIFN5c3RlbS4iCiAgICAgICAgfQoKICAgICAgICBjb21wb25lbnQgYXBpQXBwbGljYXRpb24gIkNvbXBvbmVudHMiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGFuaW1hdGlvbiB7CiAgICAgICAgICAgICAgICBzaW5nbGVQYWdlQXBwbGljYXRpb24gbW9iaWxlQXBwIGRhdGFiYXNlIGVtYWlsIG1haW5mcmFtZQogICAgICAgICAgICAgICAgc2lnbmluQ29udHJvbGxlciBzZWN1cml0eUNvbXBvbmVudAogICAgICAgICAgICAgICAgYWNjb3VudHNTdW1tYXJ5Q29udHJvbGxlciBtYWluZnJhbWVCYW5raW5nU3lzdGVtRmFjYWRlCiAgICAgICAgICAgICAgICByZXNldFBhc3N3b3JkQ29udHJvbGxlciBlbWFpbENvbXBvbmVudAogICAgICAgICAgICB9CiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICAgICAgZGVzY3JpcHRpb24gIlRoZSBjb21wb25lbnQgZGlhZ3JhbSBmb3IgdGhlIEFQSSBBcHBsaWNhdGlvbi4iCiAgICAgICAgfQoKICAgICAgICBpbWFnZSBtYWluZnJhbWVCYW5raW5nU3lzdGVtRmFjYWRlICJNYWluZnJhbWVCYW5raW5nU3lzdGVtRmFjYWRlIiB7CiAgICAgICAgICAgIGltYWdlIGh0dHBzOi8vcmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbS9zdHJ1Y3R1cml6ci9leGFtcGxlcy9tYWluL2RzbC9iaWctYmFuay1wbGMvaW50ZXJuZXQtYmFua2luZy1zeXN0ZW0vbWFpbmZyYW1lLWJhbmtpbmctc3lzdGVtLWZhY2FkZS5wbmcKICAgICAgICAgICAgdGl0bGUgIltDb2RlXSBNYWluZnJhbWUgQmFua2luZyBTeXN0ZW0gRmFjYWRlIgogICAgICAgIH0KCiAgICAgICAgZHluYW1pYyBhcGlBcHBsaWNhdGlvbiAiU2lnbkluIiAiU3VtbWFyaXNlcyBob3cgdGhlIHNpZ24gaW4gZmVhdHVyZSB3b3JrcyBpbiB0aGUgc2luZ2xlLXBhZ2UgYXBwbGljYXRpb24uIiB7CiAgICAgICAgICAgIHNpbmdsZVBhZ2VBcHBsaWNhdGlvbiAtPiBzaWduaW5Db250cm9sbGVyICJTdWJtaXRzIGNyZWRlbnRpYWxzIHRvIgogICAgICAgICAgICBzaWduaW5Db250cm9sbGVyIC0+IHNlY3VyaXR5Q29tcG9uZW50ICJWYWxpZGF0ZXMgY3JlZGVudGlhbHMgdXNpbmciCiAgICAgICAgICAgIHNlY3VyaXR5Q29tcG9uZW50IC0+IGRhdGFiYXNlICJzZWxlY3QgKiBmcm9tIHVzZXJzIHdoZXJlIHVzZXJuYW1lID0gPyIKICAgICAgICAgICAgZGF0YWJhc2UgLT4gc2VjdXJpdHlDb21wb25lbnQgIlJldHVybnMgdXNlciBkYXRhIHRvIgogICAgICAgICAgICBzZWN1cml0eUNvbXBvbmVudCAtPiBzaWduaW5Db250cm9sbGVyICJSZXR1cm5zIHRydWUgaWYgdGhlIGhhc2hlZCBwYXNzd29yZCBtYXRjaGVzIgogICAgICAgICAgICBzaWduaW5Db250cm9sbGVyIC0+IHNpbmdsZVBhZ2VBcHBsaWNhdGlvbiAiU2VuZHMgYmFjayBhbiBhdXRoZW50aWNhdGlvbiB0b2tlbiB0byIKICAgICAgICAgICAgYXV0b0xheW91dAogICAgICAgICAgICBkZXNjcmlwdGlvbiAiU3VtbWFyaXNlcyBob3cgdGhlIHNpZ24gaW4gZmVhdHVyZSB3b3JrcyBpbiB0aGUgc2luZ2xlLXBhZ2UgYXBwbGljYXRpb24uIgogICAgICAgIH0KCiAgICAgICAgZGVwbG95bWVudCBpbnRlcm5ldEJhbmtpbmdTeXN0ZW0gIkRldmVsb3BtZW50IiAiRGV2ZWxvcG1lbnREZXBsb3ltZW50IiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgICAgICBhbmltYXRpb24gewogICAgICAgICAgICAgICAgZGV2ZWxvcGVyU2luZ2xlUGFnZUFwcGxpY2F0aW9uSW5zdGFuY2UKICAgICAgICAgICAgICAgIGRldmVsb3BlcldlYkFwcGxpY2F0aW9uSW5zdGFuY2UgZGV2ZWxvcGVyQXBpQXBwbGljYXRpb25JbnN0YW5jZQogICAgICAgICAgICAgICAgZGV2ZWxvcGVyRGF0YWJhc2VJbnN0YW5jZQogICAgICAgICAgICB9CiAgICAgICAgICAgIGF1dG9MYXlvdXQKICAgICAgICAgICAgZGVzY3JpcHRpb24gIkFuIGV4YW1wbGUgZGV2ZWxvcG1lbnQgZGVwbG95bWVudCBzY2VuYXJpbyBmb3IgdGhlIEludGVybmV0IEJhbmtpbmcgU3lzdGVtLiIKICAgICAgICB9CgogICAgICAgIGRlcGxveW1lbnQgaW50ZXJuZXRCYW5raW5nU3lzdGVtICJMaXZlIiAiTGl2ZURlcGxveW1lbnQiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGFuaW1hdGlvbiB7CiAgICAgICAgICAgICAgICBsaXZlU2luZ2xlUGFnZUFwcGxpY2F0aW9uSW5zdGFuY2UKICAgICAgICAgICAgICAgIGxpdmVNb2JpbGVBcHBJbnN0YW5jZQogICAgICAgICAgICAgICAgbGl2ZVdlYkFwcGxpY2F0aW9uSW5zdGFuY2UgbGl2ZUFwaUFwcGxpY2F0aW9uSW5zdGFuY2UKICAgICAgICAgICAgICAgIGxpdmVQcmltYXJ5RGF0YWJhc2VJbnN0YW5jZQogICAgICAgICAgICAgICAgbGl2ZVNlY29uZGFyeURhdGFiYXNlSW5zdGFuY2UKICAgICAgICAgICAgfQogICAgICAgICAgICBhdXRvTGF5b3V0CiAgICAgICAgICAgIGRlc2NyaXB0aW9uICJBbiBleGFtcGxlIGxpdmUgZGVwbG95bWVudCBzY2VuYXJpbyBmb3IgdGhlIEludGVybmV0IEJhbmtpbmcgU3lzdGVtLiIKICAgICAgICB9CgogICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgIlBlcnNvbiIgewogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICAgICAgZm9udFNpemUgMjIKICAgICAgICAgICAgICAgIHNoYXBlIFBlcnNvbgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkN1c3RvbWVyIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICMwODQyN2IKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJCYW5rIFN0YWZmIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM5OTk5OTkKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJTb2Z0d2FyZSBTeXN0ZW0iIHsKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIzExNjhiZAogICAgICAgICAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkV4aXN0aW5nIFN5c3RlbSIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjOTk5OTk5CiAgICAgICAgICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiQ29udGFpbmVyIiB7CiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICM0MzhkZDUKICAgICAgICAgICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJXZWIgQnJvd3NlciIgewogICAgICAgICAgICAgICAgc2hhcGUgV2ViQnJvd3NlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIk1vYmlsZSBBcHAiIHsKICAgICAgICAgICAgICAgIHNoYXBlIE1vYmlsZURldmljZUxhbmRzY2FwZQogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkRhdGFiYXNlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBDeWxpbmRlcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkNvbXBvbmVudCIgewogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAjODViYmYwCiAgICAgICAgICAgICAgICBjb2xvciAjMDAwMDAwCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiRmFpbG92ZXIiIHsKICAgICAgICAgICAgICAgIG9wYWNpdHkgMjUKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person,Customer",
+      "properties" : {
+        "structurizr.dsl.identifier" : "customer"
+      },
+      "name" : "Personal Banking Customer",
+      "description" : "A customer of the bank, with personal bank accounts.",
+      "relationships" : [ {
+        "id" : "19",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "2f4421d5-a9ca-421b-bb0f-5f93d51ee46d"
+        },
+        "sourceId" : "1",
+        "destinationId" : "7",
+        "description" : "Views account balances, and makes payments using"
+      }, {
+        "id" : "23",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "8c513e87-743f-45ee-b48f-a1ce91a9efea"
+        },
+        "sourceId" : "1",
+        "destinationId" : "2",
+        "description" : "Asks questions to",
+        "technology" : "Telephone"
+      }, {
+        "id" : "25",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "8f5e2d47-55eb-4972-8350-9d3c8d40d126"
+        },
+        "sourceId" : "1",
+        "destinationId" : "6",
+        "description" : "Withdraws cash using"
+      }, {
+        "id" : "28",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "5a408bb8-2800-4b29-b059-097feecf6ef0"
+        },
+        "sourceId" : "1",
+        "destinationId" : "10",
+        "description" : "Visits bigbank.com/ib using",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "29",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "d5ea7925-6471-4eb6-8f08-49337ec759f8"
+        },
+        "sourceId" : "1",
+        "destinationId" : "8",
+        "description" : "Views account balances, and makes payments using"
+      }, {
+        "id" : "30",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "21cb8b2c-76a7-41e9-b23a-5358c0c210ec"
+        },
+        "sourceId" : "1",
+        "destinationId" : "9",
+        "description" : "Views account balances, and makes payments using"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "2",
+      "tags" : "Element,Person,Bank Staff",
+      "properties" : {
+        "structurizr.dsl.identifier" : "supportstaff"
+      },
+      "name" : "Customer Service Staff",
+      "description" : "Customer service staff within the bank.",
+      "relationships" : [ {
+        "id" : "24",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "d7dc5d8e-a904-4c96-bd01-e971ea1aabb4"
+        },
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "Uses"
+      } ],
+      "group" : "Big Bank plc",
+      "location" : "Unspecified"
+    }, {
+      "id" : "3",
+      "tags" : "Element,Person,Bank Staff",
+      "properties" : {
+        "structurizr.dsl.identifier" : "backoffice"
+      },
+      "name" : "Back Office Staff",
+      "description" : "Administration and support staff within the bank.",
+      "relationships" : [ {
+        "id" : "27",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "29c694e7-8d06-41ca-be8a-bd3c470a7caf"
+        },
+        "sourceId" : "3",
+        "destinationId" : "4",
+        "description" : "Uses"
+      } ],
+      "group" : "Big Bank plc",
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "4",
+      "tags" : "Element,Software System,Existing System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "mainframe"
+      },
+      "name" : "Mainframe Banking System",
+      "description" : "Stores all of the core banking information about customers, accounts, transactions, etc.",
+      "group" : "Big Bank plc",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "5",
+      "tags" : "Element,Software System,Existing System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "email"
+      },
+      "name" : "E-mail System",
+      "description" : "The internal Microsoft Exchange e-mail system.",
+      "relationships" : [ {
+        "id" : "22",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "e01ebee0-99e4-48b0-83d2-b913257eb92a"
+        },
+        "sourceId" : "5",
+        "destinationId" : "1",
+        "description" : "Sends e-mails to"
+      } ],
+      "group" : "Big Bank plc",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "6",
+      "tags" : "Element,Software System,Existing System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "atm"
+      },
+      "name" : "ATM",
+      "description" : "Allows customers to withdraw cash.",
+      "relationships" : [ {
+        "id" : "26",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "9c4662e6-df3b-46ec-b744-5dd2c5b3a98d"
+        },
+        "sourceId" : "6",
+        "destinationId" : "4",
+        "description" : "Uses"
+      } ],
+      "group" : "Big Bank plc",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "7",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "internetbankingsystem"
+      },
+      "name" : "Internet Banking System",
+      "description" : "Allows customers to view information about their bank accounts, and make payments.",
+      "relationships" : [ {
+        "id" : "20",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "13a64308-0803-41cb-87d9-bb90e26cca1f"
+        },
+        "sourceId" : "7",
+        "destinationId" : "4",
+        "description" : "Gets account information from, and makes payments using"
+      }, {
+        "id" : "21",
+        "tags" : "Relationship",
+        "properties" : {
+          "structurizr.dsl.identifier" : "d10ce006-9cf1-420b-9c24-2b501f032594"
+        },
+        "sourceId" : "7",
+        "destinationId" : "5",
+        "description" : "Sends e-mail using"
+      } ],
+      "group" : "Big Bank plc",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "18",
+        "tags" : "Element,Container,Database",
+        "properties" : {
+          "structurizr.dsl.identifier" : "database"
+        },
+        "name" : "Database",
+        "description" : "Stores user registration information, hashed authentication credentials, access logs, etc.",
+        "technology" : "Oracle Database Schema",
+        "documentation" : { }
+      }, {
+        "id" : "8",
+        "tags" : "Element,Container,Web Browser",
+        "properties" : {
+          "structurizr.dsl.identifier" : "singlepageapplication"
+        },
+        "name" : "Single-Page Application",
+        "description" : "Provides all of the Internet banking functionality to customers via their web browser.",
+        "relationships" : [ {
+          "id" : "32",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "6ccd18cc-e6dc-4a7c-9723-21c0bfe4a1c1"
+          },
+          "sourceId" : "8",
+          "destinationId" : "12",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        }, {
+          "id" : "33",
+          "sourceId" : "8",
+          "destinationId" : "11",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS",
+          "linkedRelationshipId" : "32"
+        }, {
+          "id" : "34",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "ad143350-1340-48bf-bc2c-fdf1994788bc"
+          },
+          "sourceId" : "8",
+          "destinationId" : "13",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        }, {
+          "id" : "35",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "f4e27ff8-0821-4efa-831c-6d645faa636f"
+          },
+          "sourceId" : "8",
+          "destinationId" : "14",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        } ],
+        "technology" : "JavaScript and Angular",
+        "documentation" : { }
+      }, {
+        "id" : "9",
+        "tags" : "Element,Container,Mobile App",
+        "properties" : {
+          "structurizr.dsl.identifier" : "mobileapp"
+        },
+        "name" : "Mobile App",
+        "description" : "Provides a limited subset of the Internet banking functionality to customers via their mobile device.",
+        "relationships" : [ {
+          "id" : "36",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "031fc447-dc8d-480f-9c48-5186ffa912cb"
+          },
+          "sourceId" : "9",
+          "destinationId" : "12",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        }, {
+          "id" : "37",
+          "sourceId" : "9",
+          "destinationId" : "11",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS",
+          "linkedRelationshipId" : "36"
+        }, {
+          "id" : "38",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "d0e8e195-c5b7-497d-9936-fe79c2f7bf35"
+          },
+          "sourceId" : "9",
+          "destinationId" : "13",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        }, {
+          "id" : "39",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "7395eeee-ee54-426b-bba3-a70e43860367"
+          },
+          "sourceId" : "9",
+          "destinationId" : "14",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS"
+        } ],
+        "technology" : "Xamarin",
+        "documentation" : { }
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "webapplication"
+        },
+        "name" : "Web Application",
+        "description" : "Delivers the static content and the Internet banking single page application.",
+        "relationships" : [ {
+          "id" : "31",
+          "tags" : "Relationship",
+          "properties" : {
+            "structurizr.dsl.identifier" : "941b10f7-32ae-4a47-beaa-588399fe41dd"
+          },
+          "sourceId" : "10",
+          "destinationId" : "8",
+          "description" : "Delivers to the customer's web browser"
+        } ],
+        "technology" : "Java and Spring MVC",
+        "documentation" : { }
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "apiapplication"
+        },
+        "name" : "API Application",
+        "description" : "Provides Internet banking functionality via a JSON/HTTPS API.",
+        "relationships" : [ {
+          "id" : "45",
+          "sourceId" : "11",
+          "destinationId" : "18",
+          "description" : "Reads from and writes to",
+          "technology" : "SQL/TCP",
+          "linkedRelationshipId" : "44"
+        }, {
+          "id" : "47",
+          "sourceId" : "11",
+          "destinationId" : "4",
+          "description" : "Makes API calls to",
+          "technology" : "XML/HTTPS",
+          "linkedRelationshipId" : "46"
+        }, {
+          "id" : "49",
+          "sourceId" : "11",
+          "destinationId" : "5",
+          "description" : "Sends e-mail using",
+          "linkedRelationshipId" : "48"
+        } ],
+        "technology" : "Java and Spring MVC",
+        "components" : [ {
+          "id" : "16",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "mainframebankingsystemfacade"
+          },
+          "name" : "Mainframe Banking System Facade",
+          "description" : "A facade onto the mainframe banking system.",
+          "relationships" : [ {
+            "id" : "46",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "32ec57b4-0ccc-4cac-a113-749e764834aa"
+            },
+            "sourceId" : "16",
+            "destinationId" : "4",
+            "description" : "Makes API calls to",
+            "technology" : "XML/HTTPS"
+          } ],
+          "technology" : "Spring Bean",
+          "documentation" : { }
+        }, {
+          "id" : "12",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "signincontroller"
+          },
+          "name" : "Sign In Controller",
+          "description" : "Allows users to sign in to the Internet Banking System.",
+          "relationships" : [ {
+            "id" : "40",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "41c763c7-303e-4d07-88d6-9cb508d56a06"
+            },
+            "sourceId" : "12",
+            "destinationId" : "15",
+            "description" : "Uses"
+          } ],
+          "technology" : "Spring MVC Rest Controller",
+          "documentation" : { }
+        }, {
+          "id" : "15",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "securitycomponent"
+          },
+          "name" : "Security Component",
+          "description" : "Provides functionality related to signing in, changing passwords, etc.",
+          "relationships" : [ {
+            "id" : "44",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "bac61da2-1794-40da-9cba-c0278f965125"
+            },
+            "sourceId" : "15",
+            "destinationId" : "18",
+            "description" : "Reads from and writes to",
+            "technology" : "SQL/TCP"
+          } ],
+          "technology" : "Spring Bean",
+          "documentation" : { }
+        }, {
+          "id" : "14",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "resetpasswordcontroller"
+          },
+          "name" : "Reset Password Controller",
+          "description" : "Allows users to reset their passwords with a single use URL.",
+          "relationships" : [ {
+            "id" : "42",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "10e94aed-f291-473a-8753-50ae8394d214"
+            },
+            "sourceId" : "14",
+            "destinationId" : "15",
+            "description" : "Uses"
+          }, {
+            "id" : "43",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "c36b5d33-84ca-4a7c-8c5a-97fd01d9ddc9"
+            },
+            "sourceId" : "14",
+            "destinationId" : "17",
+            "description" : "Uses"
+          } ],
+          "technology" : "Spring MVC Rest Controller",
+          "documentation" : { }
+        }, {
+          "id" : "13",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "accountssummarycontroller"
+          },
+          "name" : "Accounts Summary Controller",
+          "description" : "Provides customers with a summary of their bank accounts.",
+          "relationships" : [ {
+            "id" : "41",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "d99f1b9d-54db-4fde-a641-9dc36ec081bd"
+            },
+            "sourceId" : "13",
+            "destinationId" : "16",
+            "description" : "Uses"
+          } ],
+          "technology" : "Spring MVC Rest Controller",
+          "documentation" : { }
+        }, {
+          "id" : "17",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "emailcomponent"
+          },
+          "name" : "E-mail Component",
+          "description" : "Sends e-mails to users.",
+          "relationships" : [ {
+            "id" : "48",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "f61fb3bc-b1b5-4327-ba41-c8b427dfb917"
+            },
+            "sourceId" : "17",
+            "destinationId" : "5",
+            "description" : "Sends e-mail using"
+          } ],
+          "technology" : "Spring Bean",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ],
+    "deploymentNodes" : [ {
+      "id" : "50",
+      "tags" : "Element,Deployment Node",
+      "properties" : {
+        "structurizr.dsl.identifier" : "3b25d1bb-139b-4c8d-a2da-bf32f0937563"
+      },
+      "name" : "Developer Laptop",
+      "environment" : "Development",
+      "technology" : "Microsoft Windows 10 or Apple macOS",
+      "instances" : "1",
+      "children" : [ {
+        "id" : "51",
+        "tags" : "Element,Deployment Node",
+        "properties" : {
+          "structurizr.dsl.identifier" : "5e4837c9-26a4-4b0c-a3f9-3695676be2f8"
+        },
+        "name" : "Web Browser",
+        "environment" : "Development",
+        "technology" : "Chrome, Firefox, Safari, or Edge",
+        "instances" : "1",
+        "containerInstances" : [ {
+          "id" : "52",
+          "tags" : "Container Instance",
+          "properties" : {
+            "structurizr.dsl.identifier" : "developersinglepageapplicationinstance"
+          },
+          "relationships" : [ {
+            "id" : "58",
+            "sourceId" : "52",
+            "destinationId" : "57",
+            "description" : "Makes API calls to",
+            "technology" : "JSON/HTTPS",
+            "linkedRelationshipId" : "33"
+          } ],
+          "environment" : "Development",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "8"
+        } ]
+      }, {
+        "id" : "53",
+        "tags" : "Element,Deployment Node",
+        "properties" : {
+          "structurizr.dsl.identifier" : "53b067da-4525-40bd-8003-28c7700f9eb1"
+        },
+        "name" : "Docker Container - Web Server",
+        "environment" : "Development",
+        "technology" : "Docker",
+        "instances" : "1",
+        "children" : [ {
+          "id" : "54",
+          "tags" : "Element,Deployment Node",
+          "properties" : {
+            "structurizr.dsl.identifier" : "2ecc17cc-6afb-44ed-8e1d-1c209a91d53f"
+          },
+          "name" : "Apache Tomcat",
+          "environment" : "Development",
+          "technology" : "Apache Tomcat 8.x",
+          "instances" : "1",
+          "containerInstances" : [ {
+            "id" : "55",
+            "tags" : "Container Instance",
+            "properties" : {
+              "structurizr.dsl.identifier" : "developerwebapplicationinstance"
+            },
+            "relationships" : [ {
+              "id" : "56",
+              "sourceId" : "55",
+              "destinationId" : "52",
+              "description" : "Delivers to the customer's web browser",
+              "linkedRelationshipId" : "31"
+            } ],
+            "environment" : "Development",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "10"
+          }, {
+            "id" : "57",
+            "tags" : "Container Instance",
+            "properties" : {
+              "structurizr.dsl.identifier" : "developerapiapplicationinstance"
+            },
+            "relationships" : [ {
+              "id" : "62",
+              "sourceId" : "57",
+              "destinationId" : "61",
+              "description" : "Reads from and writes to",
+              "technology" : "SQL/TCP",
+              "linkedRelationshipId" : "45"
+            }, {
+              "id" : "66",
+              "sourceId" : "57",
+              "destinationId" : "65",
+              "description" : "Makes API calls to",
+              "technology" : "XML/HTTPS",
+              "linkedRelationshipId" : "47"
+            } ],
+            "environment" : "Development",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "11"
+          } ]
+        } ]
+      }, {
+        "id" : "59",
+        "tags" : "Element,Deployment Node",
+        "properties" : {
+          "structurizr.dsl.identifier" : "0a9ed4a0-2c0b-4c80-9473-1aff461991ef"
+        },
+        "name" : "Docker Container - Database Server",
+        "environment" : "Development",
+        "technology" : "Docker",
+        "instances" : "1",
+        "children" : [ {
+          "id" : "60",
+          "tags" : "Element,Deployment Node",
+          "properties" : {
+            "structurizr.dsl.identifier" : "4eba7714-0f48-4759-b612-0efaa3973b0d"
+          },
+          "name" : "Database Server",
+          "environment" : "Development",
+          "technology" : "Oracle 12c",
+          "instances" : "1",
+          "containerInstances" : [ {
+            "id" : "61",
+            "tags" : "Container Instance",
+            "properties" : {
+              "structurizr.dsl.identifier" : "developerdatabaseinstance"
+            },
+            "environment" : "Development",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "18"
+          } ]
+        } ]
+      } ]
+    }, {
+      "id" : "63",
+      "tags" : "Element,Deployment Node,",
+      "properties" : {
+        "structurizr.dsl.identifier" : "a6e20290-83da-4b87-bc34-c2ffdba0b0ec"
+      },
+      "name" : "Big Bank plc",
+      "environment" : "Development",
+      "technology" : "Big Bank plc data center",
+      "instances" : "1",
+      "children" : [ {
+        "id" : "64",
+        "tags" : "Element,Deployment Node,",
+        "properties" : {
+          "structurizr.dsl.identifier" : "d5cd1312-a24d-49bc-a0e0-b9536bb15df9"
+        },
+        "name" : "bigbank-dev001",
+        "environment" : "Development",
+        "instances" : "1",
+        "softwareSystemInstances" : [ {
+          "id" : "65",
+          "tags" : "Software System Instance",
+          "properties" : {
+            "structurizr.dsl.identifier" : "d7c1319b-45e0-40fe-b2c9-a147e09eb393"
+          },
+          "environment" : "Development",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "softwareSystemId" : "4"
+        } ]
+      } ]
+    }, {
+      "id" : "67",
+      "tags" : "Element,Deployment Node",
+      "properties" : {
+        "structurizr.dsl.identifier" : "dcf6bc7d-bb0c-433e-a49f-710c7bcc685b"
+      },
+      "name" : "Customer's mobile device",
+      "environment" : "Live",
+      "technology" : "Apple iOS or Android",
+      "instances" : "1",
+      "containerInstances" : [ {
+        "id" : "68",
+        "tags" : "Container Instance",
+        "properties" : {
+          "structurizr.dsl.identifier" : "livemobileappinstance"
+        },
+        "relationships" : [ {
+          "id" : "81",
+          "sourceId" : "68",
+          "destinationId" : "79",
+          "description" : "Makes API calls to",
+          "technology" : "JSON/HTTPS",
+          "linkedRelationshipId" : "37"
+        } ],
+        "environment" : "Live",
+        "deploymentGroups" : [ "Default" ],
+        "instanceId" : 1,
+        "containerId" : "9"
+      } ]
+    }, {
+      "id" : "69",
+      "tags" : "Element,Deployment Node",
+      "properties" : {
+        "structurizr.dsl.identifier" : "bec63d59-5804-4277-9875-368aa63ca679"
+      },
+      "name" : "Customer's computer",
+      "environment" : "Live",
+      "technology" : "Microsoft Windows or Apple macOS",
+      "instances" : "1",
+      "children" : [ {
+        "id" : "70",
+        "tags" : "Element,Deployment Node",
+        "properties" : {
+          "structurizr.dsl.identifier" : "0c20db22-7752-431c-b910-e45689a83002"
+        },
+        "name" : "Web Browser",
+        "environment" : "Live",
+        "technology" : "Chrome, Firefox, Safari, or Edge",
+        "instances" : "1",
+        "containerInstances" : [ {
+          "id" : "71",
+          "tags" : "Container Instance",
+          "properties" : {
+            "structurizr.dsl.identifier" : "livesinglepageapplicationinstance"
+          },
+          "relationships" : [ {
+            "id" : "80",
+            "sourceId" : "71",
+            "destinationId" : "79",
+            "description" : "Makes API calls to",
+            "technology" : "JSON/HTTPS",
+            "linkedRelationshipId" : "33"
+          } ],
+          "environment" : "Live",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "8"
+        } ]
+      } ]
+    }, {
+      "id" : "72",
+      "tags" : "Element,Deployment Node",
+      "properties" : {
+        "structurizr.dsl.identifier" : "144eb376-736f-4f0c-80cf-57a26c38b397"
+      },
+      "name" : "Big Bank plc",
+      "environment" : "Live",
+      "technology" : "Big Bank plc data center",
+      "instances" : "1",
+      "children" : [ {
+        "id" : "90",
+        "tags" : "Element,Deployment Node,",
+        "properties" : {
+          "structurizr.dsl.identifier" : "effdc9d3-21e8-4d9e-8ecd-6f52710e9e10"
+        },
+        "name" : "bigbank-prod001",
+        "environment" : "Live",
+        "instances" : "1",
+        "softwareSystemInstances" : [ {
+          "id" : "91",
+          "tags" : "Software System Instance",
+          "properties" : {
+            "structurizr.dsl.identifier" : "ec83ab4e-c347-43f6-80b5-adab683f8442"
+          },
+          "environment" : "Live",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "softwareSystemId" : "4"
+        } ]
+      }, {
+        "id" : "73",
+        "tags" : "Element,Deployment Node,",
+        "properties" : {
+          "structurizr.dsl.identifier" : "bcaf935e-10d1-4488-b140-da38501c04b7"
+        },
+        "name" : "bigbank-web***",
+        "environment" : "Live",
+        "technology" : "Ubuntu 16.04 LTS",
+        "instances" : "4",
+        "children" : [ {
+          "id" : "74",
+          "tags" : "Element,Deployment Node",
+          "properties" : {
+            "structurizr.dsl.identifier" : "20d37ad8-0bd9-4ca8-a531-7e8f86fce5ac"
+          },
+          "name" : "Apache Tomcat",
+          "environment" : "Live",
+          "technology" : "Apache Tomcat 8.x",
+          "instances" : "1",
+          "containerInstances" : [ {
+            "id" : "75",
+            "tags" : "Container Instance",
+            "properties" : {
+              "structurizr.dsl.identifier" : "livewebapplicationinstance"
+            },
+            "relationships" : [ {
+              "id" : "76",
+              "sourceId" : "75",
+              "destinationId" : "71",
+              "description" : "Delivers to the customer's web browser",
+              "linkedRelationshipId" : "31"
+            } ],
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "10"
+          } ]
+        } ]
+      }, {
+        "id" : "86",
+        "tags" : "Element,Deployment Node,Failover",
+        "properties" : {
+          "structurizr.dsl.identifier" : "0907908e-2517-44cc-8b3b-1e299c4ddb04"
+        },
+        "name" : "bigbank-db02",
+        "environment" : "Live",
+        "technology" : "Ubuntu 16.04 LTS",
+        "instances" : "1",
+        "children" : [ {
+          "id" : "87",
+          "tags" : "Element,Deployment Node,Failover",
+          "properties" : {
+            "structurizr.dsl.identifier" : "secondarydatabaseserver"
+          },
+          "name" : "Oracle - Secondary",
+          "environment" : "Live",
+          "technology" : "Oracle 12c",
+          "instances" : "1",
+          "containerInstances" : [ {
+            "id" : "88",
+            "tags" : "Container Instance",
+            "properties" : {
+              "structurizr.dsl.identifier" : "livesecondarydatabaseinstance"
+            },
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "18"
+          } ]
+        } ]
+      }, {
+        "id" : "77",
+        "tags" : "Element,Deployment Node,",
+        "properties" : {
+          "structurizr.dsl.identifier" : "664d2a80-3328-40ff-9108-980711a5bb02"
+        },
+        "name" : "bigbank-api***",
+        "environment" : "Live",
+        "technology" : "Ubuntu 16.04 LTS",
+        "instances" : "8",
+        "children" : [ {
+          "id" : "78",
+          "tags" : "Element,Deployment Node",
+          "properties" : {
+            "structurizr.dsl.identifier" : "e4ba2c75-ebd4-4863-a1dc-be207374832c"
+          },
+          "name" : "Apache Tomcat",
+          "environment" : "Live",
+          "technology" : "Apache Tomcat 8.x",
+          "instances" : "1",
+          "containerInstances" : [ {
+            "id" : "79",
+            "tags" : "Container Instance",
+            "properties" : {
+              "structurizr.dsl.identifier" : "liveapiapplicationinstance"
+            },
+            "relationships" : [ {
+              "id" : "85",
+              "sourceId" : "79",
+              "destinationId" : "84",
+              "description" : "Reads from and writes to",
+              "technology" : "SQL/TCP",
+              "linkedRelationshipId" : "45"
+            }, {
+              "id" : "89",
+              "sourceId" : "79",
+              "destinationId" : "88",
+              "description" : "Reads from and writes to",
+              "technology" : "SQL/TCP",
+              "linkedRelationshipId" : "45"
+            }, {
+              "id" : "92",
+              "sourceId" : "79",
+              "destinationId" : "91",
+              "description" : "Makes API calls to",
+              "technology" : "XML/HTTPS",
+              "linkedRelationshipId" : "47"
+            } ],
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "11"
+          } ]
+        } ]
+      }, {
+        "id" : "82",
+        "tags" : "Element,Deployment Node",
+        "properties" : {
+          "structurizr.dsl.identifier" : "d5745c1b-a126-4527-b238-ec12b6ce5577"
+        },
+        "name" : "bigbank-db01",
+        "environment" : "Live",
+        "technology" : "Ubuntu 16.04 LTS",
+        "instances" : "1",
+        "children" : [ {
+          "id" : "83",
+          "tags" : "Element,Deployment Node",
+          "properties" : {
+            "structurizr.dsl.identifier" : "primarydatabaseserver"
+          },
+          "name" : "Oracle - Primary",
+          "relationships" : [ {
+            "id" : "93",
+            "tags" : "Relationship",
+            "properties" : {
+              "structurizr.dsl.identifier" : "1c51f972-46f5-40c1-966d-dfc7a1735c73"
+            },
+            "sourceId" : "83",
+            "destinationId" : "87",
+            "description" : "Replicates data to"
+          } ],
+          "environment" : "Live",
+          "technology" : "Oracle 12c",
+          "instances" : "1",
+          "containerInstances" : [ {
+            "id" : "84",
+            "tags" : "Container Instance",
+            "properties" : {
+              "structurizr.dsl.identifier" : "liveprimarydatabaseinstance"
+            },
+            "environment" : "Live",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "18"
+          } ]
+        } ]
+      } ]
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "key" : "SystemLandscape",
+      "order" : 1,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 3270,
+        "height" : 2220
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 5,
+        "y" : 75
+      }, {
+        "id" : "2",
+        "x" : 1858,
+        "y" : 908
+      }, {
+        "id" : "3",
+        "x" : 2558,
+        "y" : 908
+      }, {
+        "id" : "4",
+        "x" : 1471,
+        "y" : 1608
+      }, {
+        "id" : "5",
+        "x" : 358,
+        "y" : 1608
+      }, {
+        "id" : "6",
+        "x" : 1108,
+        "y" : 958
+      }, {
+        "id" : "7",
+        "x" : 358,
+        "y" : 958
+      } ],
+      "relationships" : [ {
+        "id" : "27"
+      }, {
+        "id" : "26"
+      }, {
+        "id" : "25"
+      }, {
+        "id" : "24"
+      }, {
+        "id" : "23",
+        "vertices" : [ {
+          "x" : 1708,
+          "y" : 804
+        } ]
+      }, {
+        "id" : "22",
+        "vertices" : [ {
+          "x" : 208,
+          "y" : 1308
+        }, {
+          "x" : 208,
+          "y" : 804
+        } ]
+      }, {
+        "id" : "21"
+      }, {
+        "id" : "20"
+      }, {
+        "id" : "19"
+      } ]
+    } ],
+    "systemContextViews" : [ {
+      "key" : "SystemContext",
+      "order" : 2,
+      "description" : "The system context diagram for the Internet Banking System.",
+      "properties" : {
+        "structurizr.groups" : "false"
+      },
+      "softwareSystemId" : "7",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "7" ]
+      }, {
+        "order" : 2,
+        "elements" : [ "1" ],
+        "relationships" : [ "19" ]
+      }, {
+        "order" : 3,
+        "elements" : [ "4" ],
+        "relationships" : [ "20" ]
+      }, {
+        "order" : 4,
+        "elements" : [ "5" ],
+        "relationships" : [ "22", "21" ]
+      } ],
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "4",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "5",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "7",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "22"
+      }, {
+        "id" : "21"
+      }, {
+        "id" : "20"
+      }, {
+        "id" : "19"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "Containers",
+      "order" : 3,
+      "description" : "The container diagram for the Internet Banking System.",
+      "softwareSystemId" : "7",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "1", "4", "5" ],
+        "relationships" : [ "22" ]
+      }, {
+        "order" : 2,
+        "elements" : [ "10" ],
+        "relationships" : [ "28" ]
+      }, {
+        "order" : 3,
+        "elements" : [ "8" ],
+        "relationships" : [ "29", "31" ]
+      }, {
+        "order" : 4,
+        "elements" : [ "9" ],
+        "relationships" : [ "30" ]
+      }, {
+        "order" : 5,
+        "elements" : [ "11" ],
+        "relationships" : [ "33", "47", "37", "49" ]
+      }, {
+        "order" : 6,
+        "elements" : [ "18" ],
+        "relationships" : [ "45" ]
+      } ],
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "1",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "4",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "5",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "18",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "8",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "9",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "10",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "29"
+      }, {
+        "id" : "28"
+      }, {
+        "id" : "37"
+      }, {
+        "id" : "33"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "31"
+      }, {
+        "id" : "45"
+      }, {
+        "id" : "30"
+      }, {
+        "id" : "47"
+      }, {
+        "id" : "49"
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "Components",
+      "order" : 4,
+      "description" : "The component diagram for the API Application.",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "4", "5", "18", "8", "9" ]
+      }, {
+        "order" : 2,
+        "elements" : [ "12", "15" ],
+        "relationships" : [ "44", "36", "40", "32" ]
+      }, {
+        "order" : 3,
+        "elements" : [ "13", "16" ],
+        "relationships" : [ "34", "46", "38", "41" ]
+      }, {
+        "order" : 4,
+        "elements" : [ "14", "17" ],
+        "relationships" : [ "35", "48", "39", "42", "43" ]
+      } ],
+      "containerId" : "11",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "12",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "13",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "14",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "4",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "15",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "16",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "5",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "17",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "18",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "8",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "9",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "40"
+      }, {
+        "id" : "41"
+      }, {
+        "id" : "42"
+      }, {
+        "id" : "43"
+      }, {
+        "id" : "32"
+      }, {
+        "id" : "36"
+      }, {
+        "id" : "35"
+      }, {
+        "id" : "34"
+      }, {
+        "id" : "44"
+      }, {
+        "id" : "46"
+      }, {
+        "id" : "48"
+      }, {
+        "id" : "38"
+      }, {
+        "id" : "39"
+      } ]
+    } ],
+    "dynamicViews" : [ {
+      "key" : "SignIn",
+      "order" : 6,
+      "description" : "Summarises how the sign in feature works in the single-page application.",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "elementId" : "11",
+      "externalBoundariesVisible" : true,
+      "relationships" : [ {
+        "id" : "32",
+        "description" : "Submits credentials to",
+        "order" : "1",
+        "response" : false
+      }, {
+        "id" : "40",
+        "description" : "Validates credentials using",
+        "order" : "2",
+        "response" : false
+      }, {
+        "id" : "44",
+        "description" : "select * from users where username = ?",
+        "order" : "3",
+        "response" : false
+      }, {
+        "id" : "44",
+        "description" : "Returns user data to",
+        "order" : "4",
+        "response" : true
+      }, {
+        "id" : "40",
+        "description" : "Returns true if the hashed password matches",
+        "order" : "5",
+        "response" : true
+      }, {
+        "id" : "32",
+        "description" : "Sends back an authentication token to",
+        "order" : "6",
+        "response" : true
+      } ],
+      "elements" : [ {
+        "id" : "12",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "15",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "18",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "8",
+        "x" : 0,
+        "y" : 0
+      } ]
+    } ],
+    "deploymentViews" : [ {
+      "key" : "DevelopmentDeployment",
+      "order" : 7,
+      "description" : "An example development deployment scenario for the Internet Banking System.",
+      "softwareSystemId" : "7",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "environment" : "Development",
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "50", "51", "52" ]
+      }, {
+        "order" : 2,
+        "elements" : [ "55", "57", "53", "54" ],
+        "relationships" : [ "56", "58" ]
+      }, {
+        "order" : 3,
+        "elements" : [ "59", "60", "61" ],
+        "relationships" : [ "62" ]
+      } ],
+      "elements" : [ {
+        "id" : "55",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "57",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "59",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "60",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "61",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "50",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "51",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "52",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "63",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "53",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "64",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "54",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "65",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "62"
+      }, {
+        "id" : "56"
+      }, {
+        "id" : "66"
+      }, {
+        "id" : "58"
+      } ]
+    }, {
+      "key" : "LiveDeployment",
+      "order" : 8,
+      "description" : "An example live deployment scenario for the Internet Banking System.",
+      "softwareSystemId" : "7",
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "environment" : "Live",
+      "animations" : [ {
+        "order" : 1,
+        "elements" : [ "69", "70", "71" ]
+      }, {
+        "order" : 2,
+        "elements" : [ "67", "68" ]
+      }, {
+        "order" : 3,
+        "elements" : [ "77", "78", "79", "72", "73", "74", "75" ],
+        "relationships" : [ "80", "81", "76" ]
+      }, {
+        "order" : 4,
+        "elements" : [ "82", "83", "84" ],
+        "relationships" : [ "85" ]
+      }, {
+        "order" : 5,
+        "elements" : [ "88", "86", "87" ],
+        "relationships" : [ "89", "93" ]
+      } ],
+      "elements" : [ {
+        "id" : "88",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "77",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "67",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "78",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "68",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "79",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "69",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "90",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "91",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "70",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "71",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "82",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "83",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "72",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "73",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "84",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "74",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "75",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "86",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "87",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "93"
+      }, {
+        "id" : "80"
+      }, {
+        "id" : "92"
+      }, {
+        "id" : "81"
+      }, {
+        "id" : "76"
+      }, {
+        "id" : "85"
+      }, {
+        "id" : "89"
+      } ]
+    } ],
+    "imageViews" : [ {
+      "key" : "MainframeBankingSystemFacade",
+      "order" : 5,
+      "title" : "[Code] Mainframe Banking System Facade",
+      "elementId" : "16",
+      "content" : "https://raw.githubusercontent.com/structurizr/examples/main/dsl/big-bank-plc/internet-banking-system/mainframe-banking-system-facade.png",
+      "contentType" : "image/png"
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Person",
+          "color" : "#ffffff",
+          "fontSize" : 22,
+          "shape" : "Person"
+        }, {
+          "tag" : "Customer",
+          "background" : "#08427b"
+        }, {
+          "tag" : "Bank Staff",
+          "background" : "#999999"
+        }, {
+          "tag" : "Software System",
+          "background" : "#1168bd",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Existing System",
+          "background" : "#999999",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Container",
+          "background" : "#438dd5",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Web Browser",
+          "shape" : "WebBrowser"
+        }, {
+          "tag" : "Mobile App",
+          "shape" : "MobileDeviceLandscape"
+        }, {
+          "tag" : "Database",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "Component",
+          "background" : "#85bbf0",
+          "color" : "#000000"
+        }, {
+          "tag" : "Failover",
+          "opacity" : 25
+        } ]
+      },
+      "terminology" : { },
+      "lastSavedView" : "DevelopmentDeployment"
+    }
+  }
+}
